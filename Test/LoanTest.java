@@ -9,5 +9,6 @@ class LoanTest
             Loan loan =  new Loan(500,1);
         assertEquals(43.96,loan.getMonthlyPayment());
         }
+        //test
 
     }
