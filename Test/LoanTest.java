@@ -33,11 +33,27 @@ class LoanTest
     }
 
     @ParameterizedTest
-    @CsvFileSource(resources = "TotalPayments.csv",numLinesToSkip = 1)
-    void TestAll(double Amount, int Period, double Answer)
+    @CsvFileSource(resources = "GetAmount.csv",numLinesToSkip = 1)
+    void TestGetAmount(double Amount, int Period, double Answer)
     {
         Loan loan = new Loan(Amount, Period);
-        assertEquals(Answer, loan.getTotalPayment());
+        assertEquals(Answer, loan.getAmount());
+    }
+
+    @ParameterizedTest
+    @CsvFileSource(resources = "GetRate.csv",numLinesToSkip = 1)
+    void TestGetRate(double Amount, int Period, double Answer)
+    {
+        Loan loan = new Loan(Amount, Period);
+        assertEquals(Answer, loan.getRate());
+    }
+
+    @ParameterizedTest
+    @CsvFileSource(resources = "GetPeriod.csv",numLinesToSkip = 1)
+    void TestGetPeriod(double Amount, int Period, double Answer)
+    {
+        Loan loan = new Loan(Amount, Period);
+        assertEquals(Answer, loan.getPeriod());
     }
 }
 
