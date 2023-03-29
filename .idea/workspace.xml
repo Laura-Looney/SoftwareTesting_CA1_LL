@@ -5,20 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0e17218-6841-4ea0-a821-23b8822a5721" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SoftwareTesting_CA1_LL.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/LoanTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Loan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestResources/MonthlyPayments.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestResources/NegativeTests.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestResources/TotalPayments.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoftwareTesting_CA1_LL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareTesting_CA1_LL.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/LoanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/LoanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\t00223553\IdeaProjects\SoftwareTesting_CA1_LL\htmlReport" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,6 +58,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -72,7 +76,26 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.LoanTest">
+    <configuration name="All in SoftwareTesting_CA1_LL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SoftwareTesting_CA1_LL" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SoftwareTesting_CA1_LL" />
+      <extension name="coverage" runner="jacoco" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoanTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoanTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SoftwareTesting_CA1_LL" />
       <option name="PACKAGE_NAME" value="" />
@@ -83,8 +106,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.All in SoftwareTesting_CA1_LL" />
+      <item itemvalue="JUnit.LoanTest" />
+      <item itemvalue="JUnit.LoanTest.test1" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoanTest" />
+        <item itemvalue="JUnit.All in SoftwareTesting_CA1_LL" />
         <item itemvalue="JUnit.LoanTest.test1" />
       </list>
     </recent_temporary>
@@ -98,10 +128,15 @@
       <option name="presentableId" value="Default" />
       <updated>1679909163330</updated>
       <workItem from="1679909163997" duration="1282000" />
+      <workItem from="1680089041988" duration="5072000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SoftwareTesting_CA1_LL$LoanTest.ic" NAME="LoanTest Coverage Results" MODIFIED="1680093608630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SoftwareTesting_CA1_LL$LoanTest.exec" NAME="LoanTest Coverage Results" MODIFIED="1680093858994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

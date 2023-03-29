@@ -2,7 +2,7 @@
 public class
 Loan {
 
-//----------------------------------
+    //----------------------------------
 //    Data Members
 //----------------------------------
     // Constant for the number of months in a year
@@ -36,13 +36,14 @@ Loan {
     }
 
     //Returns the loan period in the number of years.
-    public int getPeriod()
-    {
+    public int getPeriod() {
         return numberOfPayments / MONTHS_IN_YEAR;
     }
 
     //Returns the annual interest rate.
-    public double getRate() { return annualRate; }
+    public double getRate() {
+        return annualRate;
+    }
 
     //Returns the monthly payment
     public double getMonthlyPayment() {
@@ -50,14 +51,14 @@ Loan {
         monthlyPayment = (loanAmount * monthlyInterestRate)
                 / (1 - Math.pow(1 / (1 + monthlyInterestRate),
                 numberOfPayments));
-        return monthlyPayment;
+        return Math.round(monthlyPayment * 100.00) / 100.00;
     }
 
     //Returns the total payment
     public double getTotalPayment() {
         double totalPayment;
         totalPayment = getMonthlyPayment() * numberOfPayments;
-        return totalPayment;
+        return Math.round(totalPayment * 100.00) / 100.00;
     }
 
     //Sets the loan amount of this loan.
@@ -74,7 +75,7 @@ Loan {
     //Sets the interest rate of this loan.
     private void setRate(int period) {
 
-        if((loanAmount >=500) && (loanAmount <=5000)) {
+        if ((loanAmount >= 500) && (loanAmount <= 5000)) {
             if (period >= 1 && period <= 3) {
                 annualRate = 10;
 
@@ -82,36 +83,28 @@ Loan {
 
                 annualRate = 6;
             }
-        }
-        else if ((loanAmount >=5001) && (loanAmount <=10000))
-        {
-            if(period >=1 && period <= 3 ){
+        } else if ((loanAmount >= 5001) && (loanAmount <= 10000)) {
+            if (period >= 1 && period <= 3) {
                 annualRate = 8;
 
-            }
-
-            else
-            {
+            } else {
                 annualRate = 5;
             }
-        }
-        else
-        {
+        } else {
             throw new IllegalArgumentException();
         }
 
-            monthlyInterestRate = annualRate / 100.0 / MONTHS_IN_YEAR;
-        }
-
-        //Sets the loan period of this loan.
-        private void setPeriod (int periodInYears)
-        {
-            if (periodInYears < 1 || periodInYears > 5)
-                throw new IllegalArgumentException();
-            else
-            numberOfPayments = periodInYears * MONTHS_IN_YEAR;
-        }
-
+        monthlyInterestRate = annualRate / 100.0 / MONTHS_IN_YEAR;
     }
+
+    //Sets the loan period of this loan.
+    private void setPeriod(int periodInYears) {
+        if (periodInYears < 1 || periodInYears > 5)
+            throw new IllegalArgumentException();
+        else
+            numberOfPayments = periodInYears * MONTHS_IN_YEAR;
+    }
+
+}
 
 
