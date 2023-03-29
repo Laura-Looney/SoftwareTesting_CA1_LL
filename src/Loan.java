@@ -73,7 +73,7 @@ Loan {
     }
 
     //Sets the interest rate of this loan.
-    private void setRate(int period) {
+    private double setRate(Integer period) {
 
         if ((loanAmount >= 500) && (loanAmount <= 5000)) {
             if (period >= 1 && period <= 3) {
@@ -95,6 +95,8 @@ Loan {
         }
 
         monthlyInterestRate = annualRate / 100.0 / MONTHS_IN_YEAR;
+
+        return monthlyInterestRate;
     }
 
     //Sets the loan period of this loan.
@@ -103,6 +105,8 @@ Loan {
             throw new IllegalArgumentException();
         else
             numberOfPayments = periodInYears * MONTHS_IN_YEAR;
+
+
     }
 
 }

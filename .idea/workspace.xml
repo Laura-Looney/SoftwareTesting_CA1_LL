@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0e17218-6841-4ea0-a821-23b8822a5721" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TestResources/GetAmount.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestResources/GetPeriod.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestResources/GetRate.csv" afterDir="false" />
+    <list default="true" id="d0e17218-6841-4ea0-a821-23b8822a5721" name="Changes" comment="lmao take 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoftwareTesting_CA1_LL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareTesting_CA1_LL.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/LoanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/LoanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loan.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +71,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LoanTest">
+  <component name="RunManager" selected="JUnit.All in SoftwareTesting_CA1_LL">
     <configuration name="All in SoftwareTesting_CA1_LL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SoftwareTesting_CA1_LL" />
       <option name="PACKAGE_NAME" value="" />
@@ -111,8 +108,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoanTest" />
         <item itemvalue="JUnit.All in SoftwareTesting_CA1_LL" />
+        <item itemvalue="JUnit.LoanTest" />
         <item itemvalue="JUnit.LoanTest.test1" />
       </list>
     </recent_temporary>
@@ -128,8 +125,16 @@
       <workItem from="1679909163997" duration="1282000" />
       <workItem from="1680089041988" duration="5072000" />
       <workItem from="1680095145661" duration="87000" />
-      <workItem from="1680095244924" duration="1752000" />
+      <workItem from="1680095244924" duration="3589000" />
     </task>
+    <task id="LOCAL-00001" summary="lmao take 2">
+      <created>1680097045694</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680097045694</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,8 +151,12 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lmao take 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="lmao take 2" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SoftwareTesting_CA1_LL$LoanTest.ic" NAME="LoanTest Coverage Results" MODIFIED="1680093608630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/SoftwareTesting_CA1_LL$LoanTest.exec" NAME="LoanTest Coverage Results" MODIFIED="1680096848441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SoftwareTesting_CA1_LL$LoanTest.exec" NAME="LoanTest Coverage Results" MODIFIED="1680098963464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
